@@ -39,7 +39,6 @@ export default function Index(){
 
         try {
             console.log("Login --> ", email.trim());
-            // Use "senha" aqui, que é o nome do seu estado
             const logged = await signInWithEmailAndPassword(auth, email.trim(), senha);
             Alert.alert("Login Ok", `Bem-vindo ${logged.user.email}`);
         } catch (error: any) {
