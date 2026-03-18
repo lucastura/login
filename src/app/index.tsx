@@ -77,6 +77,10 @@ export default function Index(){
                     <Text style={styles.footerText}>Não tem uma conta? 
                         <Link href="/signup" style={styles.footerLink}>
                             {" "}Cadastre-se aqui
+                            {"\n\n"}
+                        </Link>
+                        <Link href="/cadastro" style={styles.footerLink}>
+                            {" "}Tela de cadastro
                         </Link>
                     </Text>
                 </View>
